@@ -1,0 +1,159 @@
+:root{
+    --tipografia-facebook: ssprodisplay, helvetica, arial, sans-serif;
+    --color-azul-facebook: #166fe5;
+    --color-verde-facebook: #42b72a;
+    --color-gris-facebook: #f0f2f5;
+    --color-blanco: #ffffff;
+    --color-negro:#000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+}
+
+a{
+    text-decoration: none;
+    color: #166fe5;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.imagen{
+    margin-top: 50px;
+    width: 280px;
+}
+
+.logo{
+    width: 500px;
+    padding-right: 32px;
+}
+
+.parrafo{
+    font-size: 28px;
+}
+
+.contenedor2{
+    width: 400px;
+    display: grid;
+    justify-content: center;
+}
+
+
+form{
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow:15px 20px 10px 20px #f0f2f5;
+    padding-left: 10px;
+    
+}
+input{
+    width: 200px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 396px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    
+
+
+}
+
+.inicio{
+    width: 80%;
+    height: 52px;
+    background-color: var(--color-azul-facebook);
+    color: var(--color-blanco);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    transition: all,2ms;
+
+}
+
+.inicio:hover{
+     background-color: #1c1e21;
+}
+
+.contenedor2{
+    width: 400px;
+    height: 286px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 80%;
+    padding: 16px;
+    margin: 6px 0;
+    border: #166fe5 1px solid;
+    border-radius: 12px;
+}
+
+.olvidaste{
+    text-transform: var(--color-azul-facebook);
+    font-size: 28px;
+
+}
+
+hr{
+    border: #1c1e21 1px solid;
+    margin: 16px 0;
+}
+
+.crear{
+    
+    width: 200px;
+    height: 52px;
+    background-color: #42b72a;
+    color: #f0f2f5;
+    border-radius: 8px;
+    border: none;
+    transition: all,2ms;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+
+.crear:hover{
+    background-color: #166fe5;
+}
+
+
+.idiomas{
+    display: flex;
+    margin: 150px;
+    text-decoration: none;
+    flex-direction: row;
+    list-style: none;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 5px;
+}
